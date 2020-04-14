@@ -2,7 +2,16 @@
 Simple script to update the ip redirect for a subdomain hosted via CPanel.
 Usage is if a user does NOT have access to WHM for the server, but wishes to point a subdomain to their local IP address - for example if they want to connect to their machine via remote desktop(or similar) over the internet without needing to remember the IP address of their local machine.
 
-This could also be done in combination with another script that just goes to https://domain.com/ipdateIP.php.
+This could also be done in combination with another script that just goes to https://domain.com/updateIP.php.
+
+#User guide
+Only file needed is the updateIP.php
+* Create a subdomain via the standard CPanel UI and assign any IP address
+* Edit the 5 variables at the top: domain, subdomain, CpanelUserName, CpanelPassword, and CpanelURL
+* Renaming file is recomended
+* Upload the php file to your webserver.
+* Browse the location
+* IP address is now updated to your current address
 
 Tested on PHP 5.6 & with CPanel 86
 
