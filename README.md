@@ -4,7 +4,7 @@ Usage is if a user does NOT have access to WHM for the server, but wishes to poi
 
 This could also be done in combination with another script that just goes to https://domain.com/updateIP.php.
 
-#User guide
+#User guide#
 Only file needed is the updateIP.php
 * Create a subdomain via the standard CPanel UI and assign any IP address
 * Edit the 5 variables at the top: domain, subdomain, CpanelUserName, CpanelPassword, and CpanelURL
