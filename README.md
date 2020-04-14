@@ -1,13 +1,13 @@
 # CpanelDynDNS
 
-##About
+## About
 
 Simple script to update the ip redirect for a subdomain hosted via CPanel.
 Usage is if a user does NOT have access to WHM for the server, but wishes to point a subdomain to their local IP address - for example if they want to connect to their machine via remote desktop(or similar) over the internet without needing to remember the IP address of their local machine.
 
 This could also be done in combination with another script that just goes to https://domain.com/updateIP.php.
 
-##User guide
+## User guide
 
 Only file needed is the updateIP.php
 * Create a subdomain via the standard CPanel UI and assign any IP address
@@ -19,7 +19,7 @@ Only file needed is the updateIP.php
 
 Tested on PHP 5.6 & with CPanel 86
 
-##Roadmap
+## Roadmap
 
 Future work to be done involves:
 * Replace the calling to CPanel with a single function instead (readability)
