@@ -13,7 +13,7 @@ namespace Test
             while (true)
             {
                 WebClient client = new WebClient();
-                client.Headers.Add(HttpRequestHeader.UserAgent, "AW DNS IP update check");
+                client.Headers.Add(HttpRequestHeader.UserAgent, "Site DNS update check");
                 Stream stream = client.OpenRead("https://www.SiteDomain.com/updateIP.php");
                 StreamReader reader = new StreamReader(stream);
                 String content = reader.ReadToEnd();
